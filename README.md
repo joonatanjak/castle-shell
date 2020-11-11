@@ -16,7 +16,7 @@ This web shell is based on [p0wny@shell:~#](https://github.com/flozz/p0wny-shell
 * Upload a file to the server (using `upload <destination_file_name>` command)
 * Download a file from the server (using `download <file_name>` command)
 * Destroy the session and delete the shell (using `destroy` command) **+++**
-* Semi-realistic bash prompt **++++**
+* Semi-realistic bash prompt **+++**
 
 ![Screenshot](./screenshot.png)
 
