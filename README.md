@@ -18,6 +18,9 @@ This web shell is based on [p0wny@shell:~#](https://github.com/flozz/p0wny-shell
 * Destroy the session and delete the shell (using `destroy` command) **+**
 * Semi-realistic bash prompt **+**
 
+![Screenshot](./screenshot.png)
+
+Here is the encryped output of a command:
 ![Screenshot](./image.png)
 
 ## TODO
