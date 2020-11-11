@@ -1,4 +1,4 @@
-# castleShell -- Encrypted PHP web shell.
+# castleShell - Encrypted PHP web shell
 
 castleShell is a singe-file PHP web shell, which uses encryption in order to hide your traces in web logs.
 
