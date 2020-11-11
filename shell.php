@@ -228,7 +228,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     <head>
         <meta charset="UTF-8" />
-        <title>crypto@shell:~#</title>
+        <title>castle@shell:~#</title>
         <script src="https://cdn.jsdelivr.net/npm/crypto-js@4.0.0/crypto-js.js"></script>
         <script src="https://peterolson.github.io/BigInteger.js/BigInteger.min.js"></script>
 
@@ -627,13 +627,14 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         <div id="shell">
             <pre id="shell-content">
                 <div id="shell-logo">
-                            _   _           _          _ _  <span></span>
-  _   |~  _                | | | |         | |        | | | <span></span>
- [_]--'--[_]   ___ __ _ ___| |_| | ___  ___| |__   ___| | | <span></span>
- |'|""`""|'|  / __/ _` / __| __| |/ _ \/ __| '_ \ / _ \ | | <span></span>
- | | /^\ | | | (_| (_| \__ \ |_| |  __/\__ \ | | |  __/ | | <span></span>
- |_|_|I|_|_|  \___\__,_|___/\__|_|\___||___/_| |_|\___|_|_| <span></span>
-                                                            <span></span>                                            
+
+                          _   _       _____ _          _ _  <span></span>
+ _   |~  _               | | | |     / ____| |        | | | <span></span>
+[_]--'--[_]  ___ __ _ ___| |_| | ___| (___ | |__   ___| | | <span></span>
+|'|""`""|'| / __/ _` / __| __| |/ _ \\___ \| '_ \ / _ \ | | <span></span>
+| | /^\ | || (_| (_| \__ \ |_| |  __/____) | | | |  __/ | | <span></span>
+|_|_|I|_|_| \___\__,_|___/\__|_|\___|_____/|_| |_|\___|_|_| <span></span>
+                                                            <span></span>                                        
                 </div>
             </pre>
             <div id="shell-input">
