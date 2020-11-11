@@ -7,7 +7,7 @@ After the key exchange, all communication (e.g. executed commands) gets encrypte
 
 **However, due to some limitations, the last used encryption key gets temporarely stored in the PHP session. You can clear it by either using the `destroy` command or by refreshing the webpage.** 
 
-This web shell is based on [p0wny@shell:~#](https://github.com/flozz/p0wny-shell) but besides the encryption also include a few addional features (marked with `+`)
+This web shell is based on [p0wny@shell:~#](https://github.com/flozz/p0wny-shell) but besides having encryption, castleShell also includes a few addional features (marked with `+++`)
 
 **Features**
 * Command history (using arrow keys `↑` `↓`)
@@ -15,8 +15,8 @@ This web shell is based on [p0wny@shell:~#](https://github.com/flozz/p0wny-shell
 * Navigate on the remote file-system (using `cd` command)
 * Upload a file to the server (using `upload <destination_file_name>` command)
 * Download a file from the server (using `download <file_name>` command)
-* Destroy the session and delete the shell (using `destroy` command) **+**
-* Semi-realistic bash prompt **+**
+* Destroy the session and delete the shell (using `destroy` command) **+++**
+* Semi-realistic bash prompt **++++**
 
 ![Screenshot](./screenshot.png)
 
