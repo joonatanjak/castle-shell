@@ -47,8 +47,7 @@ function encryptData($keyhex, $array) {
     $ciphertext = openssl_encrypt($plaintext, "AES-256-CBC", $key, $options=OPENSSL_RAW_DATA, $iv);
     return array(
         'ciphertext' => base64_encode($ciphertext),
-        'iv' => base64_encode($iv),
-        'key' => base64_encode($keyhex)
+        'iv' => base64_encode($iv)
     );
 }
 function decryptData($keyhex, $ciphertexthex, $ivhex) {
