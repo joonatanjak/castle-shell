@@ -1,6 +1,6 @@
 # castleShell - Encrypted PHP web shell
 
-castleShell is a singe-file PHP web shell, which uses encryption in order to hide your traces in web logs.
+castleShell is a single-file PHP web shell, which uses encryption in order to hide your traces in web logs.
 
 The first step is to establishing a shared key between the back and front end of the shell. This is done by using [Diffie-Hellman key exchange](https://en.wikipedia.org/wiki/Diffie%E2%80%93Hellman_key_exchange), which makes it (practically) impossible to find out the shared key even when all of the mutual communication is logged.
 After the key exchange, all communication (e.g. executed commands) gets encrypted and decrypted with the shared key. 
