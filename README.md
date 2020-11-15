@@ -18,10 +18,10 @@ This web shell is based on [p0wny@shell:~#](https://github.com/flozz/p0wny-shell
 * Destroy the session and delete the shell (using `destroy` command) **+++**
 * Semi-realistic bash prompt **+++**
 
-![Screenshot](./screenshot.png)
+![Screenshot](./images/screenshot.png)
 
 Here is the encryped output of a command:
-![Screenshot](./image.png)
+![Screenshot](./images/encryption_screenshot.png)
 
 ## TODO
 * A fully interactive PTY shell with colors and stuff. (Requires a complete rewrite.)
